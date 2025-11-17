@@ -1,0 +1,207 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #1a1a1a;
+  color: white;
+  text-align: center;
+}
+
+header {
+  padding: 50px;
+}
+
+header span {
+  color: #00ffbf;
+}
+
+section {
+  padding: 25px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  background: #333;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+footer {
+  background: #111;
+  padding: 15px;
+  margin-top: 30px;
+}
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: aqua;
+}
+
+.hero h3 {
+    font-size: 1.5rem;
+    color: #88f2ff;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+.about {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+    color: aqua;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+.skills {
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 20px;
+}
+
+.skills h2 {
+    color: aqua;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    display: inline-block;
+    background: #333;
+    color: white;
+    padding: 12px 18px;
+    margin: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: default;
+}
+
+/* Hover effect */
+.skills li:hover {
+    background: aqua;
+    color: #000;
+}
+.projects {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.projects h2 {
+    color: aqua;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.project-card {
+    background: #222;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    color: white;
+    text-align: left;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    background: #333;
+}
+
+.project-card h3 {
+    color: aqua;
+    margin-bottom: 10px;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    background: aqua;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.project-card a:hover {
+    background: white;
+}
+/* CONTACT SECTION */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: aqua;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: #222;
+    color: white;
+    border: 1px solid aqua;
+    border-radius: 5px;
+}
+
+.contact button {
+    width: 100%;
+    padding: 12px;
+    background: aqua;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.contact button:hover {
+    background: white;
+    color: black;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: white;
+    font-size: 0.9rem;
+}
